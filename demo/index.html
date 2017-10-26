@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Seniverse-Jsonp-Demo</title>
+</head>
+<body>
+  <h3>Seniverse-Jsonp-Demo</h3>
+  <p>本示例采用心知天气实时气象数据 /now.json</p>
+  <div>
+    <p id="weather"></p>
+    <p id="time"></p>    
+  </div>
+  <p style="max-width:700px;">更新后的示例采用地址为北京市，实际使用中可以获取实时坐标查询。由于众所周知的网络问题，JavaScript Geolocation API 在境内的访问不畅，原获取定位查询演示 demo 无法正常工作。代理之后可以正常使用地理位置 API，但 demo 所用 key 不具备国际信息查询权限，故而求其次。建议在生产环境慎重使用。</p>
+  <script src="https://cdn.bootcss.com/crypto-js/3.1.9/crypto-js.min.js"></script>  
+  <script src="../dist/seniverse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

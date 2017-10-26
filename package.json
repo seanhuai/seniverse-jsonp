@@ -1,0 +1,19 @@
+{
+  "name": "seniverse",
+  "version": "1.0.0",
+  "description": "心知天气 jsonp 封装组件",
+  "main": "index.js",
+  "author": "seanhuai",
+  "license": "MIT",
+  "repository": "https://github.com/seanhuai/seniverse-jsonp.git",
+  "bugs": {
+    "url": "https://github.com/seanhuai/seniverse-jsonp/issues",
+    "email": "huaiyifan@live.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-6to5": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
